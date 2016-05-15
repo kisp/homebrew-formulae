@@ -3,7 +3,7 @@ class Gdid < Formula
   homepage "https://github.com/kisp/gdid"
   url "https://github.com/kisp/gdid/archive/0.0.11.tar.gz"
   version "0.0.11"
-  sha256 "fd6a8351e355c6e9af827fc3dcbaed9a9b3f20cf0aea36342d26a30740a5e926"
+  sha256 "922034584a7a2d29d57d82c81326b7ca076d5194b84da61d7c1ea8f293fa2a14"
 
   depends_on "sbcl" => :build
 
