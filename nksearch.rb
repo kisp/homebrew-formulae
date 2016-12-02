@@ -1,9 +1,9 @@
 class Nksearch < Formula
   desc "nksearch"
   homepage "https://github.com/kisp/nksearch"
-  url "https://github.com/kisp/nksearch/archive/0.1.14.tar.gz"
-  version "0.1.14"
-  sha256 "48114f5f1fedda0be3f7409da3424f43ad3ec1390fac12f41856e48b4a5c2733"
+  url "https://github.com/kisp/nksearch/archive/0.1.22.tar.gz"
+  version "0.1.22"
+  sha256 "4e63b1f1fb7e57df998b7930a419d79f1c185c0f862e39bb7131865179e1f475"
 
   depends_on "sbcl" => :build
 
