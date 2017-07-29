@@ -6,7 +6,7 @@ class SbclWrap < Formula
   sha256 "3e7d6ed9ee13b972748f35a50c83294b1bc64217bc07c1b06794b8c3b99301d5"
 
   depends_on "ghc" => :build
-  depends_on "cabal_install" => :build
+  depends_on "cabal-install" => :build
 
   head "https://github.com/kisp/sbcl-wrap.git"
 
