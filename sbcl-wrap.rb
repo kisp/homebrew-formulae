@@ -3,7 +3,7 @@ class SbclWrap < Formula
   homepage "https://github.com/kisp/sbcl-wrap"
   url "https://github.com/kisp/sbcl-wrap/archive/0.0.5.tar.gz"
   version "0.0.5"
-  sha256 "3e7d6ed9ee13b972748f35a50c83294b1bc64217bc07c1b06794b8c3b99301d5"
+  sha256 "74a44349cb24c8c330af615b815069825a9d100aec50436c999423f6ad68820a"
 
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
