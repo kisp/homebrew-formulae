@@ -13,15 +13,10 @@ class SbclWrap < Formula
   def install
     ENV.deparallelize  # if your formula fails when building in parallel
 
-    system "echo #{HOMEBREW_PREFIX}/#{prefix} >/tmp/foo"
-
-    system "mkdir -p dist/build/sbcl-wrap"
-    system "touch dist/build/sbcl-wrap/sbcl-wrap"
-    
-    # system "cabal update"
-    # system "cabal sandbox init"
-    # system "cabal install --only-dependencies"
-    # system "cabal build"
+    system "cabal update"
+    system "cabal sandbox init"
+    system "cabal install --only-dependencies"
+    system "cabal build"
 
     system "mkdir -p #{prefix}/bin"
     system "install dist/build/sbcl-wrap/sbcl-wrap #{prefix}/bin"
