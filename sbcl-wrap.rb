@@ -23,7 +23,7 @@ class SbclWrap < Formula
     # system "cabal install --only-dependencies"
     # system "cabal build"
     
-    system "install dist/build/sbcl-wrap/sbcl-wrap #{prefix}/bin/sbcl-wrap"
+    system "install -d dist/build/sbcl-wrap/sbcl-wrap #{prefix}/bin/sbcl-wrap"
   end
 
   test do
