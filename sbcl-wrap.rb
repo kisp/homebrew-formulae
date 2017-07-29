@@ -15,12 +15,15 @@ class SbclWrap < Formula
 
     system "echo #{HOMEBREW_PREFIX}/#{prefix} >/tmp/foo"
 
-    system "cabal update"
-    system "cabal sandbox init"
-    system "cabal install --only-dependencies"
-    system "cabal build"
-    system "echo #{HOMEBREW_PREFIX}/#{prefix}"
-    # system "install dist/build/sbcl-wrap/sbcl-wrap #{HOMEBREW_PREFIX}/#{prefix}"
+    system "mkdir -p dist/build/sbcl-wrap"
+    system "touch dist/build/sbcl-wrap/sbcl-wrap"
+    
+    # system "cabal update"
+    # system "cabal sandbox init"
+    # system "cabal install --only-dependencies"
+    # system "cabal build"
+    
+    system "install dist/build/sbcl-wrap/sbcl-wrap #{prefix}/bin/sbcl-wrap"
   end
 
   test do
