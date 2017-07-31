@@ -1,9 +1,9 @@
 class ClispWrap < Formula
   desc "Wrapper around clisp for fast script execution with (on demand compiled and cached) libraries"
   homepage "https://github.com/kisp/clisp-wrap"
-  url "https://github.com/kisp/clisp-wrap/archive/0.0.5.tar.gz"
-  version "0.0.5"
-  sha256 "c3b8ebe5fa80f4345711f7d0a2cd28cbc2d2adea92262cd78d2b2a8ac6540b90"
+  url "https://github.com/kisp/clisp-wrap/archive/0.0.6.tar.gz"
+  version "0.0.6"
+  sha256 "2f6f36b2097525ce3379ace94be712c46c8a4e0381f68b5fded4052f2843a21d"
 
   depends_on "ghc" => :build
   depends_on "cabal-install" => :build
