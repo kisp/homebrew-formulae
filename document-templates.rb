@@ -1,10 +1,10 @@
 class DocumentTemplates < Formula
-  VERSION = "0.0.15"
+  VERSION = "0.0.16"
   desc "document-templates"
   homepage "https://github.com/kisp/document-templates"
   url "https://github.com/kisp/document-templates/archive/#{VERSION}.tar.gz"
   version VERSION
-  sha256 "543864b9c9e1b8e200909314f7d403df040204cb3ec1f5d5b6da7d8933000586"
+  sha256 "2cae17caf70d5b0cfa2eba0885a7c0fd5ec78616ac70e9a601d10d8f4d552db5"
 
   depends_on "sbcl" => :build
 
